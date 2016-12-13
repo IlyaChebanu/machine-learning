@@ -58,7 +58,6 @@ df = handle_non_numberical_data(df)
 # print(df.head())
 
 # Assign the features and label
-X = np.array(df.drop(['survived'], 1).astype(float))
 X = preprocessing.scale(X)
 y = np.array(df['survived'])
 
