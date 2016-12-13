@@ -115,11 +115,6 @@ class Support_Vector_Machine:
 		plt.show()
 
 
-
-
-
-
-
 # Create some basic testing data
 # The keys are the classes, -1 and 1
 # The data is in the form of a 2D array

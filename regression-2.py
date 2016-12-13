@@ -68,7 +68,7 @@ def coefficient_of_determination(ys_orig, ys_line):
 # With variance 80, r^2 around 0.2
 # With variance 40, r^2 averaged about 0.5
 # With variance 10, r^2 around 0.93
-xs, ys = create_dataset(40, 80, 2, correlation='pos')
+xs, ys = create_dataset(40, 20, 2, correlation=None)
 
 # Create an array using the formula y = mx + b
 # containing the y values for each x
